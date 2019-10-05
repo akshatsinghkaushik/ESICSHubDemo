@@ -1,0 +1,83 @@
+<div class="flex-sb-m w-full p-b-30">
+              <div class="contact100-form-checkbox">
+                <input
+                  class="input-checkbox100"
+                  id="ckb1"
+                  type="checkbox"
+                  name="remember-me"
+                />
+                <label class="label-checkbox100" for="ckb1">
+                  Remember me
+                </label>
+              </div>
+
+              <div>
+                <a href="#" class="txt1">
+                  Forgot Password?
+                </a>
+              </div>
+            </div>
+
+
+
+
+            style="margin-left: auto;
+			  margin-right: auto;"
+              
+
+
+
+
+
+
+
+
+
+
+
+
+
+               <h1 class="h3 mb-3 font-weight-normal" id="titleheader">
+      Register an Account
+    </h1>
+
+    <input
+      type="personalname"
+      class="form-control"
+      id="personalnameRegister"
+      placeholder="Name"
+      pattern=".*"
+      required
+    />
+    <input
+      type="email"
+      class="form-control"
+      id="emailInputRegister"
+      placeholder="Email"
+      pattern=".*"
+      required
+    />
+    <input
+      type="password"
+      class="form-control"
+      id="passwordInputRegister"
+      placeholder="Password"
+      pattern=".*"
+      required
+    />
+    <input
+      type="password"
+      class="form-control"
+      id="confirmationpassword"
+      placeholder="Confirm Password"
+      pattern=".*"
+      required
+    />
+    <button
+      id="mainbutton"
+      class="btn btn-lg btn-primary btn-block"
+      type="button"
+      onclick="registerButton()"
+    >
+      Register
+    </button>
